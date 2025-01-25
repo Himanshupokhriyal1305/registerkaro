@@ -1,0 +1,25 @@
+
+.Intelegencia{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Register{
+    font-size: 32px;
+}
+.RegisterW{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.LearnMore{
+    background-color: rgba(28, 70, 112, 1);
+    height: 48px;
+    width: 157px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    text-decoration: none;
+}

@@ -1,0 +1,93 @@
+/* Default styles for desktop (already defined) */
+.testimonial-card {
+  width: 520px;
+}
+
+.testimonial-section {
+  background-color: #002f6c;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+}
+
+.quote-icon {
+  color: #ffa229;
+}
+
+.stars i {
+  margin-right: 4px;
+}
+
+.user1 {
+  height: 30px;
+}
+
+/* Responsive design for tablets */
+@media (max-width: 992px) {
+  .testimonial-card {
+    width: 60%; /* Make cards take full width */
+    margin: 0 auto; /* Center the cards */
+  }
+
+ 
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .testimonial-card {
+    width: 80%; /* Reduce the card width for smaller screens */
+  }
+  .carousel-item{
+   
+   
+   
+  }
+
+  .testimonial-text {
+    font-size: 14px; /* Slightly smaller font size */
+  }
+
+  .user1 {
+    height: 25px; /* Adjust user icon size */
+  }
+
+  .quote-icon {
+    font-size: 18px; /* Adjust quote icon size */
+  }
+  .test{
+    width: 100%;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px; /* Smaller carousel controls for mobile */
+    height: 30px;
+  }
+}
+
+/* Responsive design for very small devices */
+@media (max-width: 576px) {
+  .testimonial-card {
+    width: 100%; /* Full width for extra small devices */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  .test{
+    width: 100%;
+  }
+
+  .testimonial-section h2 {
+    font-size: 20px; /* Smaller header font size */
+    text-align: center; /* Center the header text */
+  }
+
+  .testimonial-text {
+    font-size: 10px; /* Even smaller font for text */
+  }
+}
+
+/* Adjust testimonial cards for mobile screens */
+@media (max-width: 450px) {
+ 
+}
