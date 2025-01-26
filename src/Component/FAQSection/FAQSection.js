@@ -32,7 +32,7 @@ const FAQSection = () => {
         </div>
         <button
           className="btn testimonial-section text-white mt-4 px-4 py-2"
-          style={{ borderRadius: "5px" }}
+          style={{ borderRadius: "6px" }}
         >
           Show more  <img
                             src={Allimages.Accelerate5 }
