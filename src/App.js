@@ -11,6 +11,7 @@ import HeroSection from './Component/HeroSection/HeroSection'
 import Trusted from './Component/Trusted/Trusted'
 import Statistics from './Component/Statistics/Statistics'
 import HeaderBar from './Component/HeaderBar/HeaderBar'
+import Testimonials from './Component/Testimonials/Testimonials'
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <TrustedBy/>
       <ServicesComponent/>
       <AboutSection/>
+      <Testimonials/>
+      
       <WhyChooseUs/>
       <VideoIntro/>
       <HeroSection/>
