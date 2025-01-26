@@ -10,10 +10,12 @@ import Footer from './Component/Footer/Footer'
 import HeroSection from './Component/HeroSection/HeroSection'
 import Trusted from './Component/Trusted/Trusted'
 import Statistics from './Component/Statistics/Statistics'
+import HeaderBar from './Component/HeaderBar/HeaderBar'
 
 function App() {
   return (
     <div>
+    <HeaderBar/>
       <Navbar/>
       <Banner/>
       <TrustedBy/>
